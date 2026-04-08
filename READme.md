@@ -58,7 +58,7 @@ List of Virtual Env Libraries:
 
 2. Wait until the Python GUI is displayed, and the PS is opened (see the image).
 
-    <img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" />
+    <p align= "center"><img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" /></p>
 
 3. The GUI contains a lot of buttons to simplify the button functions, which are explained here:
     - *Load Model* = This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
@@ -100,7 +100,7 @@ List of Virtual Env Libraries:
 
 10. The pushed order is placed in the Datatable(PS Excel form): *orderQueue*.
 
-    <img width="800" height="400" alt="order_queue" src="https://github.com/user-attachments/assets/ee33d4f4-17db-4856-ad1c-cb5e1a57fade" />
+    <p align= "center"><img width="640" height="480" alt="order_queue" src="https://github.com/user-attachments/assets/ee33d4f4-17db-4856-ad1c-cb5e1a57fade" /></p>
 
 11. The input for the simulation is taken from *orderQueue*.
 12. Click on *Start/Stop Simulation* for the simulation start.
@@ -110,7 +110,7 @@ List of Virtual Env Libraries:
 
 13. Check the Datatable: *prodArchieve* to find the orders assigned to the pallet.
 
-    <img width="800" height="400" alt="prod_archieve" src="https://github.com/user-attachments/assets/0a860405-2841-439e-8638-0107ecff087a" />
+    <p align= "center"><img width="640" height="480" alt="prod_archieve" src="https://github.com/user-attachments/assets/0a860405-2841-439e-8638-0107ecff087a" /></p>
 
 
 *Feel free to play around with the creation and publishing of orders and observe the simulation*
