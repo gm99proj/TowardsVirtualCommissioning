@@ -61,18 +61,18 @@ List of Virtual Env Libraries:
     <img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" />
 
 3. The GUI contains a lot of buttons to simplify the button functions, which are explained here:
-    - *Load Model*: This helps the user select and load the desired PS file/model (***___.spp***) into the PS application. :[^2]
-    - [^3]: *Set Event Controller*: This is a **Mandatory** function or to be clicked before starting the simulation.
-    - [^4]: *Start/Stop Simulation*: This interacts with the start and stop of the simulation.
-    - [^5]: *Reset Simulation*: This function resets the simulation.
-    - [^6]: *Documentation*: This function prints the methods that are utilized for the Python COM interface to interact with PS.
-    - [^7]: *Close*: This function closes the current model present in the PS application.
-    - [^8]: *Quit*: This function closes the entire PS application and GUI.
-    - [^9]: *Connect MQTT*: This helps in setting up an MQTT client server and establishing a MQTT broker for communication.
-    - [^10]: *New Order*: This function emulates a MES order creation system.
-    - [^11]: *View Order*: This function emulates a MES order viewing system.
-    - [^12]: *Publish Order*: This function emulates a MES order-generating system that connects the MQTT broker to publish the data/information
-    - [^13]: *Simple Dropdown*: To select the created order for publishing.
+    - [^2]:*Load Model* = This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
+    - [^3]: *Set Event Controller* = This is a **Mandatory** function or to be clicked before starting the simulation.
+    - [^4]: *Start/Stop Simulation* = This interacts with the start and stop of the simulation.
+    - [^5]: *Reset Simulation* = This function resets the simulation.
+    - [^6]: *Documentation* = This function prints the methods that are utilized for the Python COM interface to interact with PS.
+    - [^7]: *Close* = This function closes the current model present in the PS application.
+    - [^8]: *Quit* = This function closes the entire PS application and GUI.
+    - [^9]: *Connect MQTT* = This helps in setting up an MQTT client server and establishing a MQTT broker for communication.
+    - [^10]: *New Order* = This function emulates a MES order creation system.
+    - [^11]: *View Order* = This function emulates a MES order viewing system.
+    - [^12]: *Publish Order* = This function emulates a MES order-generating system that connects the MQTT broker to publish the data/information
+    - [^13]: *Simple Dropdown* = To select the created order for publishing.
    
 4. Now click on *Load model*[^2] and select the ***SL_V07_MQTT.spp*** available in the folder.
 
