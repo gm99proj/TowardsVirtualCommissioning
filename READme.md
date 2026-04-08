@@ -6,9 +6,7 @@ To establish a connection between external Python and the Plant Simulation, ther
 **Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version[^1] and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
 
 >[!IMPORTANT]
-> ***pywin32==225***
-
->Very important library because this is one prerequisite for the Plant simulation library to install it in the venv 
+> ***pywin32==225*** : Very important library because this is one prerequisite for the Plant simulation library to install it in the venv 
 >    1. Go to the venv folder
 >    2. Open CMD and activate the env by (Scripts\activate)
 >    3. pip install pywin32==225
