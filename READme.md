@@ -61,7 +61,7 @@ List of Virtual Env Libraries:
     <img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" />
 
 3. The GUI contains a lot of buttons to simplify the button functions, which are explained here:
-    - [^2]: *Load Model*: This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
+    - *Load Model*: This helps the user select and load the desired PS file/model (***___.spp***) into the PS application. :[^2]
     - [^3]: *Set Event Controller*: This is a **Mandatory** function or to be clicked before starting the simulation.
     - [^4]: *Start/Stop Simulation*: This interacts with the start and stop of the simulation.
     - [^5]: *Reset Simulation*: This function resets the simulation.
@@ -76,7 +76,7 @@ List of Virtual Env Libraries:
    
 4. Now click on *Load model*[^2] and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-        ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d)
+    ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d)
 
 5. Click on *Connect MQTT*[^9] to establish an MQTT broker connection.
 
