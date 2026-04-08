@@ -1,3 +1,15 @@
+##Project Brief
+
+Python COM interface 
+
+MQTT
+
+Plant simulation
+
+Content to be added
+
+
+##Setup
 To establish a connection between external Python and the Plant Simulation, there are some required versions to be fulfilled
 
 ***Python Version = 3.8 or less***
@@ -11,7 +23,8 @@ To establish a connection between external Python and the Plant Simulation, ther
 >    2. Open CMD and activate the env by (Scripts\activate)
 >    3. pip install pywin32==225
 
-**Note**: You might encounter issues importing the plantsim lib when running any scripts. The error looks like this (ImportError: DLL load failed: The specified module could not be found). To resolve this, copy the dll found in ("Your venv"\Lib\site-packages\pywin32_system32") and paste it in ("Your venv"\Lib\site-packages\win32)
+>[!NOTE]
+> You might encounter issues importing the plantsim lib when running any scripts. The error looks like this (*ImportError: DLL load failed: The specified module could not be found*). To resolve this, copy the dll found in (***"Your venv"\Lib\site-packages\pywin32_system32"***) and paste it in (***"Your venv"\Lib\site-packages\win32***)
 
 List of Virtual Env Libraries:
 
@@ -31,17 +44,11 @@ List of Virtual Env Libraries:
 |texttable     |  1.7.0     |  
 |tzdata        |  2025.3    |
 
-**Note**: These libraries are important to run the script in place under /src.
-
-***Project Brief***
-Python COM interface 
-MQTT
-Plant simulation
-
-Content to be added
+>[!NOTE]
+>These libraries are important to run the script in place under /src.
 
 
-
+##WORKING POC
 
 **Get started with the actually working POC of MQTT with the Plant Simulation (PS)**
 
