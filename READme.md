@@ -53,7 +53,7 @@ Content to be added
     <img width="640" height="320" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" />
 
 3. The GUI contains a lot of buttons to simplify the button functions, which are explained here:
-   *[^2]=*Load Model*: This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
+    - [^2]=*Load Model*: This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
     -[^3]=*Set Event Controller*: This is a **Mandatory** function or to be clicked before starting the simulation.
     -[^4]=*Start/Stop Simulation*: This interacts with the start and stop of the simulation.
     -[^5]=*Reset Simulation*: This function resets the simulation.
