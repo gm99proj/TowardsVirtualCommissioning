@@ -15,9 +15,9 @@ Content to be added
 To establish a connection between external Python and the Plant Simulation, there are some required versions to be fulfilled
 
 ***Python Version = 3.8 or less***
-[^1]: Current Project setup is on Py 3.8 
+Current Project setup is on Py 3.8 
 
-**Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version[^1] and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
+**Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
 
 >[!IMPORTANT]
 > ***pywin32==225*** : Very important library because this is one prerequisite for the Plant simulation library to install it in the venv 
@@ -76,7 +76,7 @@ List of Virtual Env Libraries:
    
 4. Now click on *Load model* and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-    ![load_model](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/load_model.gif)
+    <img src="/media/load_model.gif" width="250" height="250"/>
 
 5. Click on *Connect MQTT* to establish an MQTT broker connection.
 
