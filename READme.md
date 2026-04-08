@@ -74,11 +74,11 @@ List of Virtual Env Libraries:
     - *Publish Order* = This function emulates a MES order-generating system that connects the MQTT broker to publish the data/information
     - *Simple Dropdown* = To select the created order for publishing.
    
-4. Now click on *Load model*[^2] and select the ***SL_V07_MQTT.spp*** available in the folder.
+4. Now click on *Load model* and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-    ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d)
+    ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d.gif)
 
-5. Click on *Connect MQTT*[^9] to establish an MQTT broker connection.
+5. Click on *Connect MQTT* to establish an MQTT broker connection.
 
         ![connect_mqtt](https://github.com/user-attachments/assets/1c9426ef-08b0-47ff-9279-f7006452551a)
 
@@ -86,14 +86,13 @@ List of Virtual Env Libraries:
 
         ![ps_connect_mqtt](https://github.com/user-attachments/assets/92fee56d-a7b9-476d-8dcb-00fc5b532af5)
 
-7.  Now click on *Set Event Controller*[^3].
+7.  Now click on *Set Event Controller*.
 
         ![event_controller](https://github.com/user-attachments/assets/3734c734-37e8-4232-a392-7b9d81a844bc)
 
-8.  Create a simple order using *New Order*[^10].
+8.  Create a simple order using *New Order*.
 
-
-9.  Once created, select the order from the dropdown[^13] and click on *Publish Order*[^12].Observe that in the PS application console shows *Order transfer to simulation: Complete*.
+9.  Once created, select the order from the dropdown and click on *Publish Order*. Observe that in the PS application console shows *Order transfer to simulation: Complete*.
 
         ![publish_order](https://github.com/user-attachments/assets/b940b8b5-848a-45f2-a366-9eeb6767b63f)
 
