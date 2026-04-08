@@ -1,4 +1,6 @@
-##Project Brief
+# Virtual commissioning (Plant Simulation with MQTT)
+
+## Project Brief
 
 Python COM interface 
 
@@ -9,7 +11,7 @@ Plant simulation
 Content to be added
 
 
-##Setup
+## Setup
 To establish a connection between external Python and the Plant Simulation, there are some required versions to be fulfilled
 
 ***Python Version = 3.8 or less***
@@ -48,7 +50,7 @@ List of Virtual Env Libraries:
 >These libraries are important to run the script in place under /src.
 
 
-##WORKING POC
+## WORKING POC
 
 **Get started with the actually working POC of MQTT with the Plant Simulation (PS)**
 
@@ -74,26 +76,26 @@ List of Virtual Env Libraries:
    
 4. Now click on *Load model*[^2] and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d)
+        ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d)
 
 5. Click on *Connect MQTT*[^9] to establish an MQTT broker connection.
 
-![connect_mqtt](https://github.com/user-attachments/assets/1c9426ef-08b0-47ff-9279-f7006452551a)
+        ![connect_mqtt](https://github.com/user-attachments/assets/1c9426ef-08b0-47ff-9279-f7006452551a)
 
 6. In the PS application, there exists a Method (*orderAssignment*) file. Right-click on it and select the *Run* option from the menu. In the PS, observe that the MQTT interface has green and orange rectangular blocks at the top, indicating that the MQTT broker connection is linked.
 
-![ps_connect_mqtt](https://github.com/user-attachments/assets/92fee56d-a7b9-476d-8dcb-00fc5b532af5)
+        ![ps_connect_mqtt](https://github.com/user-attachments/assets/92fee56d-a7b9-476d-8dcb-00fc5b532af5)
 
 7.  Now click on *Set Event Controller*[^3].
 
-![event_controller](https://github.com/user-attachments/assets/3734c734-37e8-4232-a392-7b9d81a844bc)
+        ![event_controller](https://github.com/user-attachments/assets/3734c734-37e8-4232-a392-7b9d81a844bc)
 
 8.  Create a simple order using *New Order*[^10].
 
 
 9.  Once created, select the order from the dropdown[^13] and click on *Publish Order*[^12].Observe that in the PS application console shows *Order transfer to simulation: Complete*.
 
-![publish_order](https://github.com/user-attachments/assets/b940b8b5-848a-45f2-a366-9eeb6767b63f)
+        ![publish_order](https://github.com/user-attachments/assets/b940b8b5-848a-45f2-a366-9eeb6767b63f)
 
 10. The pushed order is placed in the Datatable(PS Excel form): *orderQueue*.
 
@@ -108,6 +110,7 @@ List of Virtual Env Libraries:
 
 *Feel free to play around with the creation and publishing of orders and observe the simulation*
 
-**Note**: If the simulation resets, repeat from step 6 (exclude step 7 as the model is already assigned to a *Event Controller*)
+>[!NOTE]
+>If the simulation resets, repeat from step 6 (exclude step 7 as the model is already assigned to a *Event Controller*)
     
 
