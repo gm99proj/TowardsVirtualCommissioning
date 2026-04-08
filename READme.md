@@ -3,7 +3,7 @@ To establish a connection between external Python and the Plant Simulation, ther
 ***Python Version = 3.8 or less***
 Current Project setup is on Py 3.8 
 
-Note: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version and ensure the Py version is set in your desktop, and setup Virtual env through the command: (py -3.8 -m venv "Give any folder title") in your desired folder
+**Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
 
 ***pywin32==225***
 
@@ -32,6 +32,8 @@ List of Virtual Env Libraries:
 |texttable     |  1.7.0     |  
 |tzdata        |  2025.3    |
 
-Note: These libraries are important to run the script in place under /src.
+**Note**: These libraries are important to run the script in place under /src.
 
-To get started with the actually working POC of MQTT with Plant simulation
+**Get started with the actually working POC of MQTT with the plant simulation**
+
+The
