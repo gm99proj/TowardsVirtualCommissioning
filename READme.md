@@ -76,27 +76,27 @@ List of Virtual Env Libraries:
    
 4. Now click on *Load model* and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-    <img src="/media/load_model.gif" width="250" height="250"/>
+    <p align = "center"><img src="/media/load_model.gif" width="640" height="480"/></p>
 
 5. Click on *Connect MQTT* to establish an MQTT broker connection.
 
-   ![connect_mqtt](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/connect_mqtt.gif)
+    <p align = "center"><img src="/media/connect_mqtt.gif" width="640" height="480"/></p>
 
 6. In the PS application, there exists a Method (*orderAssignment*) file. Right-click on it and select the *Run* option from the menu. In the PS, observe that the MQTT interface has green and orange rectangular blocks at the top, indicating that the MQTT broker connection is linked.
 
-   ![ps_connect_mqtt](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/ps_connect_mqtt.gif)
+    <p align = "center"><img src="/media/ps_connect_mqtt.gif" width="640" height="480"/></p>
 
 7.  Now click on *Set Event Controller*.
 
-   ![event_controller](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/event_controller.gif)
+   <p align = "center"><img src="/media/event_controller.gif" width="640" height="480"/></p>
 
 8.  Create a simple order using *New Order*.
 
-   ![new_order](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/new_order.gif)
+   <p align = "center"><img src="/media/new_order.gif" width="640" height="480"/></p>
 
 9.  Once created, select the order from the dropdown and click on *Publish Order*. Observe that in the PS application console shows *Order transfer to simulation: Complete*.
 
-   ![publish_order](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/publish_order.gif)
+   <p align = "center"><img src="/media/publish_order.gif" width="640" height="480"/></p>
 
 10. The pushed order is placed in the Datatable(PS Excel form): *orderQueue*.
 
@@ -105,7 +105,7 @@ List of Virtual Env Libraries:
 11. The input for the simulation is taken from *orderQueue*.
 12. Click on *Start/Stop Simulation* for the simulation start.
 
-   ![simulation](https://github.com/gm99proj/TowardsVirtualCommissioning/blob/main/media/simulation.gif)
+    <p align = "center"><img src="/media/simulation.gif" width="640" height="480"/></p>
 
 
 13. Check the Datatable: *prodArchieve* to find the orders assigned to the pallet.
