@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <workplan id="1">
+        <plan row="1">
+            <stepNo>10</stepNo>
+            <operation>200</operation>
+            <resource>65</resource>
+            <nextStep>20</nextStep>
+            <description>Feed bottom cover part from magazine</description>
+        </plan>
+        <plan row="2">
+            <stepNo>20</stepNo>
+            <operation>122</operation>
+            <resource>63</resource>
+            <nextStep>30</nextStep>
+            <description>Drill the holes</description>
+        </plan>
+        <plan row="3">
+            <stepNo>30</stepNo>
+            <operation>304</operation>
+            <resource>64</resource>
+            <nextStep>40</nextStep>
+            <description>Assemble the PCB with 2 Fuses(L,R)</description>
+        </plan>
+        <plan row="4">
+            <stepNo>40</stepNo>
+            <operation>404</operation>
+            <resource>68</resource>
+            <nextStep>50</nextStep>
+            <description>Check the assembled product</description>
+        </plan>
+        <plan row="5">
+            <stepNo>50</stepNo>
+            <operation>801</operation>
+            <resource>66</resource>
+            <nextStep>70</nextStep>
+            <description>Mount the Top cover part on the assembly</description>
+        </plan>
+        <plan row="6">
+            <stepNo>70</stepNo>
+            <operation>510</operation>
+            <resource>80</resource>
+            <nextStep>0</nextStep>
+            <description>Take the final product</description>
+        </plan>
+    </workplan>
+    <workplan id="2">
+        <plan row="1">
+            <stepNo>10</stepNo>
+            <operation>200</operation>
+            <resource>1</resource>
+            <nextStep>20</nextStep>
+            <description>Feed bottom cover part from magazine</description>
+        </plan>
+        <plan row="2">
+            <stepNo>20</stepNo>
+            <operation>122</operation>
+            <resource>2</resource>
+            <nextStep>0</nextStep>
+            <description>Mount the Top cover part</description>
+        </plan>
+    </workplan>
+</database>

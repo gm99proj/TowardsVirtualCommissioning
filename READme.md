@@ -15,12 +15,12 @@ Content to be added
 To establish a connection between external Python and the Plant Simulation, there are some required versions to be fulfilled
 
 ***Python Version = 3.8 or less***
-[^1]: Current Project setup is on Py 3.8 
+Current Project setup is on Py 3.8 
 
-**Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version[^1] and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
+**Note**: If you have a different version of Python, it's better to create a virtual env(venv) for the Py 3.8 version and ensure the Py version is set in your desktop, and setup Virtual env through the command: ***py -3.8 -m venv "Give any folder title"*** in your desired folder
 
 >[!IMPORTANT]
-> ***pywin32==225*** : Very important library because this is one prerequisite for the Plant simulation library to install it in the venv 
+> ***pywin32==225***: Very important library for the Plant simulation module to install in the venv
 >    1. Go to the venv folder
 >    2. Open CMD and activate the env by (Scripts\activate)
 >    3. pip install pywin32==225
@@ -58,7 +58,7 @@ List of Virtual Env Libraries:
 
 2. Wait until the Python GUI is displayed, and the PS is opened (see the image).
 
-    <img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" />
+    <p align= "center"><img width="640" height="480" alt="image" label= "Initial step" src="https://github.com/user-attachments/assets/14b932a7-462a-4272-af71-cdeb1d78abb3" /></p>
 
 3. The GUI contains a lot of buttons to simplify the button functions, which are explained here:
     - *Load Model* = This helps the user select and load the desired PS file/model (***___.spp***) into the PS application.
@@ -76,35 +76,41 @@ List of Virtual Env Libraries:
    
 4. Now click on *Load model* and select the ***SL_V07_MQTT.spp*** available in the folder.
 
-    ![load_model](https://github.com/user-attachments/assets/d009eaac-00a2-493a-a311-7624ba12971d.gif)
+    <p align = "center"><img src="/media/load_model.gif" width="640" height="480"/></p>
 
 5. Click on *Connect MQTT* to establish an MQTT broker connection.
 
-        ![connect_mqtt](https://github.com/user-attachments/assets/1c9426ef-08b0-47ff-9279-f7006452551a)
+    <p align = "center"><img src="/media/connect_mqtt.gif" width="640" height="480"/></p>
 
 6. In the PS application, there exists a Method (*orderAssignment*) file. Right-click on it and select the *Run* option from the menu. In the PS, observe that the MQTT interface has green and orange rectangular blocks at the top, indicating that the MQTT broker connection is linked.
 
-        ![ps_connect_mqtt](https://github.com/user-attachments/assets/92fee56d-a7b9-476d-8dcb-00fc5b532af5)
+    <p align = "center"><img src="/media/ps_connect_mqtt.gif" width="640" height="480"/></p>
 
 7.  Now click on *Set Event Controller*.
 
-        ![event_controller](https://github.com/user-attachments/assets/3734c734-37e8-4232-a392-7b9d81a844bc)
+   <p align = "center"><img src="/media/event_controller.gif" width="640" height="480"/></p>
 
 8.  Create a simple order using *New Order*.
 
+   <p align = "center"><img src="/media/new_order.gif" width="640" height="480"/></p>
+
 9.  Once created, select the order from the dropdown and click on *Publish Order*. Observe that in the PS application console shows *Order transfer to simulation: Complete*.
 
-        ![publish_order](https://github.com/user-attachments/assets/b940b8b5-848a-45f2-a366-9eeb6767b63f)
+   <p align = "center"><img src="/media/publish_order.gif" width="640" height="480"/></p>
 
 10. The pushed order is placed in the Datatable(PS Excel form): *orderQueue*.
 
-    <img width="800" height="400" alt="order_queue" src="https://github.com/user-attachments/assets/ee33d4f4-17db-4856-ad1c-cb5e1a57fade" />
+    <p align= "center"><img width="640" height="480" alt="order_queue" src="https://github.com/user-attachments/assets/ee33d4f4-17db-4856-ad1c-cb5e1a57fade" /></p>
 
 11. The input for the simulation is taken from *orderQueue*.
 12. Click on *Start/Stop Simulation* for the simulation start.
+
+    <p align = "center"><img src="/media/simulation.gif" width="640" height="480"/></p>
+
+
 13. Check the Datatable: *prodArchieve* to find the orders assigned to the pallet.
 
-    <img width="800" height="400" alt="prod_archieve" src="https://github.com/user-attachments/assets/0a860405-2841-439e-8638-0107ecff087a" />
+    <p align= "center"><img width="640" height="480" alt="prod_archieve" src="https://github.com/user-attachments/assets/0a860405-2841-439e-8638-0107ecff087a" /></p>
 
 
 *Feel free to play around with the creation and publishing of orders and observe the simulation*
