@@ -140,7 +140,7 @@ to:
 
 ---
 
-# MES4 Connection Overview
+# FESTO MES4 Interface Connection Overview
 
 MES4 communication is established using a **TCP/IP Request-Response** architecture.
 
