@@ -48,7 +48,7 @@ The overall goal is to create a foundation for:
 ```
 # Running the Script
 >[!NOTE]
-> Access the 'src\main.py' file to execute the program.
+> Access the `src\main.py` file to execute the program.
 
 
 # Python Environment Setup
