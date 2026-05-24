@@ -166,9 +166,9 @@ The implementation uses:
 
 ---
 
-# Technologies Used
+# Software/Tools Used
 
-| Technology | Purpose |
+| Software/Tools | Purpose |
 |---|---|
 | Siemens Plant Simulation | Simulation Environment |
 | SimTalk | Simulation Logic |
@@ -179,9 +179,9 @@ The implementation uses:
 
 ---
 
-# Documentation
+# Implementation
 
-## Simulation Setup
+## Simulation Setup 
 
 This section explains how the simulation model of the FESTO assembly line was created using Siemens Tecnomatix Plant Simulation.
 
@@ -191,7 +191,7 @@ This section explains how the simulation model of the FESTO assembly line was cr
 - SimTalk logic implementation
 - Workflow validation
 
-[Simulation Setup](docs/simulation_setup_README.md)
+[Simulation Setup Implementation](docs/simulation_setup_README.md)
 
 ---
 
@@ -206,7 +206,7 @@ Main focus areas:
 - Data transfer from MES to simulation
 - Message interpretation inside Plant Simulation
 
-[Phase 1 Documentation](docs/phase1_README.md)
+[Phase 1 Implementation](docs/phase1_README.md)
 
 ---
 
@@ -221,6 +221,6 @@ Main focus areas:
 - Simulation feedback to MES
 - Synchronization between virtual and physical systems
 
-[Phase 2 Documentation](docs/phase2_README.md)
+[Phase 2 Implementation](docs/phase2_README.md)
 
 ---
