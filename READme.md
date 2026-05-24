@@ -412,16 +412,15 @@ The experience gained throughout this work contributed significantly to understa
 - Industrial communication architectures
 - Practical challenges of Digital Twin implementation in brownfield environments
 
-# Contributors
 
 # Contributors
 
-<p align="center">
-  <img src="https://github.com/gm99proj.png" width="150" style="border-radius:50%"><br><br>
+<div align="center">
 
-  <b>Goutam M</b><br><br>
+<img src="https://github.com/gm99proj.png" width="150">
 
-  <a href="https://github.com/gm99proj">
-    @gm99proj
-  </a>
-</p>
+### Goutam M
+
+[@gm99proj](https://github.com/gm99proj)
+
+</div>
