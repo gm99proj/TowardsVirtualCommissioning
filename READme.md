@@ -414,6 +414,6 @@ The experience gained throughout this work contributed significantly to understa
 
 # Contributors
 
-| Name | GitHub |
-|---|---|
-| Goutam M | [![GitHub](https://img.shields.io/badge/GitHub-gm99proj-black?logo=github)](https://github.com/gm99proj) |
+| Profile | Name | GitHub |
+|---|---|---|
+| <img src="https://github.com/gm99proj.png" width="80"> | Goutam M | [![GitHub](https://img.shields.io/badge/GitHub-gm99proj-black?logo=github)](https://github.com/gm99proj) |
