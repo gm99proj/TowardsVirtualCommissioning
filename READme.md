@@ -411,3 +411,9 @@ The experience gained throughout this work contributed significantly to understa
 - Simulation-driven validation
 - Industrial communication architectures
 - Practical challenges of Digital Twin implementation in brownfield environments
+
+# Contributors
+
+| Name | GitHub |
+|---|---|
+| Goutam M | [![GitHub](https://img.shields.io/badge/GitHub-gm99proj-black?logo=github)](https://github.com/gm99proj) |
