@@ -6,6 +6,8 @@ The project is based on the **AAU 5G Smart Production Lab FESTO Assembly Line** 
 
 The implementation is divided into multiple phases, starting from the development of a standalone simulation model and extending toward MES communication and bidirectional synchronization.
 
+
+![Working Prototype](Github_media/Phase2_short.gif)
 ---
 
 # Project Overview
@@ -44,6 +46,9 @@ The overall goal is to create a foundation for:
 └── mes4.log
 
 ```
+# Running the Script
+>[!NOTE]
+> Access the 'src\main.py' file to execute the program.
 
 
 # Python Environment Setup
@@ -224,3 +229,185 @@ Main focus areas:
 [Phase 2 Implementation](docs/phase2_README.md)
 
 ---
+
+# Project Outcome & Value
+
+This project demonstrates the feasibility of integrating a existing Manufacturing Execution System (MES4) with a digital simulation model to support the development of a Digital Twin (DT) and initiate plant-level Virtual Acceptance Testing (VAT).
+
+The implementation extends traditional virtual validation beyond machine and control levels toward the plant level of the ISA-95 automation hierarchy.
+
+---
+
+# Limitations & Practical Challenges
+
+Although the implementation successfully demonstrates MES-Digital Twin integration and plant-level virtual validation, several limitations were identified during development.
+
+These limitations reflect the practical challenges of integrating legacy manufacturing systems into modern Industry 4.0 architectures.
+
+---
+
+## MES Communication Stability
+
+The MES4 system becomes unstable when processing multiple concurrent incoming messages from external systems.
+
+This creates challenges when:
+
+- Multiple service calls are executed simultaneously
+- Large amounts of data are exchanged
+- Continuous synchronization is required
+
+---
+
+## Communication Latency
+
+The current implementation uses two communication protocols in the MES layer:
+
+- TCP/IP communication with MES4
+- MQTT communication with the simulation model
+
+The coexistence of these protocols introduces:
+
+- Communication latency
+- Synchronization delays
+- Slower response times during high message exchange
+
+---
+
+## Limited Error Handling
+
+The current Digital Twin implementation does not fully support advanced error handling and recovery mechanisms.
+
+For example:
+
+- If the simulation encounters unexpected conditions or infinite loops, the simulation may reset
+- The MES order may remain in the last processing state
+- Synchronization inconsistencies can occur between MES and the simulation model
+
+---
+
+## JSON Parsing Limitation in Plant Simulation
+
+A limitation was identified in the MQTT interface of Plant Simulation related to JSON list parsing.
+
+To overcome this limitation:
+
+- Incoming data is converted into strings
+- Parsed manually into lists
+- Reconstructed into JSON format
+
+This workaround introduces inefficiencies when processing larger datasets.
+
+---
+
+## Partial Digital Twin Realization
+
+Although bidirectional communication and synchronization were achieved, the implementation should be considered a foundational Digital Twin prototype rather than a fully complete Digital Twin.
+
+Current limitations include:
+
+- Partial MES functionality support
+- Limited synchronization capabilities
+- No advanced fault recovery
+- Limited handling of complex production scenarios
+
+---
+
+## Limited Validation Scope
+
+The current implementation mainly focuses on:
+
+- Order scheduling
+- Resource operations
+- Resource state monitoring
+
+---
+
+## Brownfield Integration Challenges
+
+The project demonstrates the practical difficulty of retrofitting legacy manufacturing systems into modern Digital Twin architectures.
+
+The limitations mainly originate from:
+
+- Legacy MES communication interfaces
+- Compatibility constraints
+- Existing infrastructure limitations
+- Communication synchronization complexity
+
+---
+
+# Value Provided by the Project
+
+The project provides value in several areas of digital manufacturing and Industry 4.0 development.
+
+## Plant-Level Validation
+
+The implementation demonstrates that MES-driven production behavior can be evaluated in a virtual environment, extending validation beyond traditional machine-level Virtual Commissioning approaches.
+
+---
+
+## Digital Twin Foundation
+
+The project establishes a foundational Digital Twin architecture capable of:
+
+- Real-time synchronization
+- MES interaction
+- Dynamic workflow execution
+- Event-driven communication
+
+---
+
+## Industry 4.0 Integration
+
+The use of:
+
+- MQTT communication
+- Simulation-driven workflows
+- External MES interaction
+- Bidirectional communication
+
+aligns the implementation with Industry 4.0 manufacturing principles.
+
+---
+
+## Reusable & Scalable Architecture
+
+The developed methodology and simulation models provide a reusable foundation for:
+
+- Future Digital Twin development
+- Advanced MES integration
+- Plant-level VAT research
+- Scalable manufacturing architectures
+
+---
+
+# Research Contribution
+
+This project contributes toward addressing the research gap in plant-level virtual validation by extending MES integration into simulation-driven validation workflows.
+
+The implementation demonstrates the feasibility of retrofitting existing manufacturing systems with Digital Twin concepts while highlighting practical challenges associated with brownfield integration.
+
+---
+
+# Acknowledgement
+
+I would like to express my sincere gratitude to everyone who contributed to and supported this project.
+
+Special thanks to:
+
+- **Aalborg University (AAU)** and the **AAU 5G Smart Production Lab** for providing the research environment and access to the FESTO assembly line used as the reference system for this implementation.
+
+- My supervisors, Lab's staff scientist and colleagues for their guidance, technical discussions, and valuable feedback throughout the project.
+
+This project was developed as part of research focused on:
+
+- Digital Twin development
+- MES integration
+- Plant-level Virtual Acceptance Testing (VAT)
+- Industry 4.0 manufacturing systems
+
+The experience gained throughout this work contributed significantly to understanding:
+
+- Manufacturing system integration
+- Simulation-driven validation
+- Industrial communication architectures
+- Practical challenges of Digital Twin implementation in brownfield environments
