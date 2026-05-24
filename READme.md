@@ -32,8 +32,10 @@ List of Virtual Env Libraries:
 
 |Package       |  Version   |
 | ------------ | ---------- |
+|et-xmlfile    |  2.0.0     |
 |mqtt          |  0.0.1     |  
-|numpy         |  1.24.4    |  
+|numpy         |  1.24.4    |
+|openpyxl      |  3.1.5     |
 |paho-mqtt     |  1.6.1     |  
 |pandas        |  2.0.3     |  
 |pip           |  19.2.3    |  
