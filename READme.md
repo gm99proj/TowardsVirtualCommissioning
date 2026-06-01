@@ -50,7 +50,6 @@ The overall goal is to create a foundation for:
 >[!NOTE]
 > Access the `src\main.py` file to execute the program.
 
-
 # Python Environment Setup
 
 To establish communication between external Python applications and Siemens Plant Simulation, the following setup is required.
@@ -117,6 +116,11 @@ pip install -r requirements.txt
 
 >[!IMPORTANT]
 > `pywin32==225` is required for communication between Python and Siemens Plant Simulation.
+
+> [!IMPORTANT]
+> `Mosquitto` is required to set up an MQTT broker on the local or host device in order to establish MQTT communication between the MES, Python interface, and Plant Simulation.
+>
+> The Mosquitto installation package can be downloaded from: [Mosquitto MQTT Download Link](https://mosquitto.org/download/)
 
 ## Fix DLL Import Issue
 

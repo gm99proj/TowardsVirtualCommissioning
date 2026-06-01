@@ -168,6 +168,8 @@ The logic controls:
 
 # Final Simulation Model
 
+Simulation File: [PlantSim File: SL_V05_SimModel](../PlantSim_Files/SL_V05_SimModel.spp)
+
 After implementing:
 
 - CAD layout

@@ -114,6 +114,8 @@ The simulation workflow is now able control dynamically using MES order informat
 
 Before connecting directly to the physical MES4 system, a temporary Proof of Concept (POC) setup was created.
 
+Simulation File: [PlantSim File: SL_V07_Phase1](../PlantSim_Files/SL_V07_Phase1.spp)
+
 The POC implementation used:
 
 - Plant Simulation COM Interface

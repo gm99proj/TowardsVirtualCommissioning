@@ -136,6 +136,8 @@ Each resource inside the simulation can now send event updates back to MES4.
 
 Before connecting to the actual MES4 system, a Proof of Concept (POC) implementation was developed.
 
+Simulation File: [PlantSim File: SL_V08_Phase2_WorkingPOC](../PlantSim_Files/SL_V08_Phase2_WorkingPOC.spp)
+
 The POC included:
 
 - Temporary MES interface
@@ -164,6 +166,8 @@ The implementation followed a Architecture:
 With changes established earlier in the implementation POC slight modification was done in the MQTT interface to connect respective topic of MES Layer and the simulation is now controlled dynamically using MES information.
 
 The working video can be viewed by following this link: [Watch Phase 2 Working](https://drive.google.com/file/d/1ibPcnWGAUKdvjAhvx9dDCetnwnF8H0uF/view?usp=sharing)
+
+Simulation File: [PlantSim File: SL_V1_Phase2](../PlantSim_Files/SL_V1_Phase2.spp)
 
 ---
 
